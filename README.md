@@ -1,3 +1,7 @@
+# Hooks playground
+Just messing around with the new React `Hooks` apis.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
