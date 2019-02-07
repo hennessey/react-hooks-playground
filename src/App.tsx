@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import TheOneWithState from './TheOneWithState'
 import TheOneWithEffectfulLifecycles from './TheOneWithEffectfulLifecycles'
 import TheOneWithACustomHook from './TheOneWithACustomHook'
+import TheOneThatsReduxy from './TheOneThatsReduxy'
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
           <TheOneWithState />
           <TheOneWithEffectfulLifecycles SomeProp={true}/>
           <TheOneWithACustomHook />
+          <TheOneThatsReduxy />
         </header>
       </div>
     );
