@@ -8,7 +8,7 @@ interface Props {
 // synchrnonously after a particular lifecyle event. This is
 // an important distinction! Unlike class-level lifecycle
 // events they aren't blocking.
-const TheOneWithEffectfulLifecycles: SFC<Props> = ({ SomeProp }) => {
+const TheOnesThatFireLikeLifecycles: SFC<Props> = ({ SomeProp }) => {
   // This is like componentDidMount
   useEffect(
     () => {
@@ -41,4 +41,4 @@ const TheOneWithEffectfulLifecycles: SFC<Props> = ({ SomeProp }) => {
   return <div>Rendering me caused some side effects</div>;
 };
 
-export default TheOneWithEffectfulLifecycles;
+export default TheOnesThatFireLikeLifecycles;

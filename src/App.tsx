@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import TheOneWithState from './TheOneWithState'
-import TheOneWithEffectfulLifecycles from './TheOneWithEffectfulLifecycles'
+import TheOnesThatFireLikeLifecycles from './TheOnesThatFireLikeLifecycles'
 import TheOneWithACustomHook from './TheOneWithACustomHook'
 import TheOneThatsReduxy from './TheOneThatsReduxy'
 import './App.css';
@@ -13,7 +13,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <TheOneWithState />
-          <TheOneWithEffectfulLifecycles SomeProp={true}/>
+          <TheOnesThatFireLikeLifecycles SomeProp={true}/>
           <TheOneWithACustomHook />
           <TheOneThatsReduxy />
         </header>
